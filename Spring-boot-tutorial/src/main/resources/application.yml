@@ -1,0 +1,16 @@
+server:
+          port: 8081
+spring:
+  application:
+    name: Spring-boot-tutorial
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: Dharmender@18
+    url: jdbc:mysql://localhost:8080/dcbapp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+welcome:
+  message: Welcome to Daily Code Buffer!!
